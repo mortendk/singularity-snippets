@@ -1,9 +1,11 @@
 <snippet>
   <content><![CDATA[
-@include float-span(${1:gridwidth}, '${2:first-last}',\$grid: ${3:gridsize}, \$gutter: ${4:gutter});
+  @include grid-span(${1:spanwidth},${2:location}, ${3:grid}, ${4:gutter}, '${5:outputstyle}');
+
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>singularity</tabTrigger>
+  <!-- <description>Singularity Grid span( width, location)</description> -->
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <!-- <scope>source.python</scope> -->
+  <!-- <scope>source.scss</scope> -->
 </snippet>

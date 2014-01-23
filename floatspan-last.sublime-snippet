@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-@include float-span(${1:gridwidth},'last');
+@include float-span(${1:spanwidth},'last');
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>singularity</tabTrigger>

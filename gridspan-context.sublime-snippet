@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-  @include grid-span(${1:gridwidth},${2:gridposition}, ${3:contextgrid});
+  @include grid-span(${1:spanwidth},${2:location}, ${3:grid});
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>singularity</tabTrigger>
